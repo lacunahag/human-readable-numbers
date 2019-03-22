@@ -1,7 +1,9 @@
+"use strict"
+
 ;(function() {
     
     // known SI prefixes, multiple of 3
-    const SHORT_PREFIXES = {
+    var SHORT_PREFIXES = {
         '24': 'Y',
         '21': 'Z',
         '18': 'E',
@@ -22,7 +24,7 @@
     };
 
     /** I only care about big numbers for now */
-    const LONG_PREFIXES = {
+    var LONG_PREFIXES = {
         '24': ' Septillion',
         '21': ' Sextillion',
         '18': ' Quintillion',
